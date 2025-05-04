@@ -17,7 +17,7 @@ client.on('messageCreate', message => {
   if (message.author.bot) return;
 
   if (message.content.toLowerCase().includes('skill issue')) {
-    message.channel.send('skill 你妈 issue');
+    message.channel.send('skill 你媽 issue');
   }
 });
 
